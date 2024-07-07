@@ -21,15 +21,6 @@ header {
     z-index: 1000; /* Ensure it's above other content */
 }
 
-header h1 {
-    margin: 0;
-    font-size: 2.5rem;
-}
-
-header p {
-    font-size: 1.2rem;
-}
-
 nav {
     background-color: #333;
     text-align: right;
@@ -74,13 +65,20 @@ footer {
     margin-top: auto;
 }
 
-h2 {
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+h1 {
     color: #4CAF50;
 }
 
 p {
     font-size: 1rem;
 }
+
 /* Responsive Styles */
 @media only screen and (max-width: 768px) {
     .nav-menu {
@@ -146,5 +144,9 @@ p {
 
     .nav-toggle:checked + .nav-toggle-label .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .container {
+        width: 90%;
     }
 }
