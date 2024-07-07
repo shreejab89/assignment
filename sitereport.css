@@ -1,4 +1,4 @@
-/* Home Page Styles */
+/* General Styles */
 body {
     background: #ffffff;
     font-family: Arial, sans-serif;
@@ -11,13 +11,14 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #333; /* Dark background */
     color: white;
-    padding: 10px 0;
+    padding: 5px 0; /* Increased padding for better spacing */
     text-align: center;
     position: fixed;
     width: 100%;
-    top:0;
+    top: 0;
+    z-index: 1000; /* Ensure it's above other content */
 }
 
 header h1 {
@@ -61,7 +62,7 @@ nav ul li a:hover {
 
 main {
     flex: 1;
-    padding: 20px;
+    padding: 80px 20px 20px; /* Adjusted padding to move content down */
     text-align: center;
 }
 
