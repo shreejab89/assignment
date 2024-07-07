@@ -1,39 +1,12 @@
-body{
-    margin: 0;
-    padding:0;
-    font-family: Arial, Helvetica, sans-serif;
-
-}
-header{
-    background-color: #333;
-    padding: 10px 0;
+/* Video Demonstration Page Styles */
+header {
+    background-color: #9C27B0;
+    color: white;
+    padding: 30px 0;
 }
 
-.copy{
-    display: flex;
-    align-items: center;
-    justify-content:flex-end;
-    margin-right: 20px;
-}
-
-.copy ul{
-    list-style-type: none;
-    padding:0;
-    margin:0;
-    display:flex;
-}
-
-.copy ul li{
-    margin-left: 11px;
-}
-.copy ul li a {
-    color:#fff;
-    text-decoration: none;
-    padding: 15px 20px;
-    transition:background-color 0.2s, color 0.2s;
-
-}
-.copy ul li a:hover {
-    background-color: #575757;
-    color: #fff;
+iframe {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
 }
