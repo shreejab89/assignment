@@ -1,43 +1,111 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site Report</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Sitereport</title>
+    <link rel="stylesheet" href="sit.css">
 </head>
 <body>
     <header>
-        <h1>Site Report</h1>
+        <!--The navigation bar and menu is inside the header element-->
+   <input type="checkbox" id = "leet-toggle"><!--Adding checkbox for hamburger icon-->
+       <!--code for hamburger icon-->
+           <label for = "leet-toggle" class = "hamburger">
+               <span class="bar"></span>
+               <span class="bar"></span>
+               <span class="bar"></span>
+               
+           </label>
+        <!--The navigation bar code goes here -->
+        <nav class = "leet">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="project.html">Project</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="videoDemo.html">videoDemo</a></li>
+                <li><a href="sitereport.html">Sitereport</a></li>
+            </ul>
+        </nav>
     </header>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="project.html">Projects</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="videoDemo.html">Video Demo</a></li>
-            <li><a href="sitereport.html">Site Report</a></li>
-        </ul>
-    </nav>
     <main>
-        <section>
-            <h2>Development Experience</h2>
-            <p>This section contains a detailed log of my experience learning web development, including coding, design, and debugging processes. It includes my ups and downs during the term.</p>
-            <h2>Reflective Discussion</h2>
-            <p>A discussion reflecting on my module experience, focusing on the technical and design aspects of the site's user interface (UI).</p>
-            <h2>Design Decisions</h2>
-            <p>An explanation of the design decisions I made, including choices for fonts, colors, and the sites that influenced my design.</p>
-            <h2>Validation Screenshots</h2>
-            <p>Here are the screenshots of validation reports for my HTML and CSS:</p>
-            <img src="validation-html.png" alt="HTML Validation">
-            <img src="validation-css.png" alt="CSS Validation">
-            <h2>Video Demonstration URL</h2>
-            <p>You can watch my video demonstration <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">here</a>.</p>
-        </section>
+        <!--Here is the text content of the sitereport-->
+        <div class="sitereport-container">
+            <div class="sitereport-text">
+            <h1>Sitereport</h1>
+            <p>Well, It was good experience for me to learn Web Development with lots of ups and downs.It was quite fun when the results appeared while doing this development process but at the same time it was challenging task in many aspects and was hectic task from my personal experience.It became quite challenging for me when i tried to make it responsive as well as while making the hamburger icon. When I encountered some problems i took reference to many sites on the Internet which helped me a lot. Learnig this module was quite fun and building your own portfolio website gives to immense joy which i felt personally.It was quite challenging but still was great journey so far from not having the basic idea of HTML to knowing at certain extent.It was irritating as well for some time when using one css property used to ruin other components in the page which gives you frustation at some time after taking a few minutes break it made me feel easy.I felt difficulties while using the git initally once i got used to it it became a lot easier for me to use and i got to learnt a lot about web development and which tags to use for the web development.I felt that you need dedication and hardwork with regular practice in this field for better results in this particular field which worked actually in my case.Debugging the code took a while for me the learn and i did it by commenting the certain part of the code and by running the other parts of the code <br>
+                Here I have used pseudo property of CSS in body tag to ensure that it creates a full screen background image effect with a fixed position and desired effect and I have used animation in the homepage with blink effect.I used Sans-Serif font which made it look attractive and for the containers out there in the webpage i have made the background transparent which made it look good.
+            </p>
+            </div>
+        </div>
+        <div class = "Validator">
+            <h2>Validation Reports for HTML and CSS</h2>
+        </div>
+
+         <!--Placeholder images have been added here in this project page-->
+         <div class = "Validation-Collections">
+            <h1>Validation Reports</h1>
+        <div class = "grid-container-Screenshots">
+            <!--Image 1-->
+            <div class="grid-items-pic">
+                <img src="Media/indexhtml.png" alt = valid>
+            </div>
+
+            <!--Image 2-->
+            <div class="grid-items-pic">
+                <img src="Media/indexcss.png" alt = valid>
+            </div>
+
+            <!--Image3-->
+            <div class="grid-items-pic">
+                <img src="Media/projecthtml.png" alt = valid>
+            </div>
+
+            <!--Image4-->
+            <div class="grid-items-pic">
+                <img src="Media/projectcss.png" alt = valid>
+            </div>
+
+            <!--Image5-->
+            <div class="grid-items-pic">
+                <img src="Media/contacthtml.png" alt = valid>
+            </div>
+
+            <!--Image6-->
+            <div class="grid-items-pic">
+                <img src="Media/contactcss.png" alt = valid>
+            </div>
+
+             <!--Image7-->
+             <div class="grid-items-pic">
+                <img src="Media/videoDemohtml.png" alt = valid>
+            </div>
+
+             <!--Image8-->
+             <div class="grid-items-pic">
+                <img src="Media/videoDemocss.png" alt = valid>
+            </div>
+
+             <!--Image9-->
+             <div class="grid-items-pic">
+                <img src="Media/sitereporthtml.png" alt = valid>
+            </div>
+
+             <!--Image10-->
+             <div class="grid-items-pic">
+                <img src="Media/sitereportcss.png" alt = valid>
+            </div>
+
+            
+        </div>
+    </div>
+    <button  class = "black"><a href="https://mymedia.northampton.ac.uk/media/Pranish6145CSY-1018-ASI-2023134-Pranish-Chapagain-Video_demonstration/0_q27ay5x9">Demo Video</a></button>
+
     </main>
-    <footer>
-        <p>&copy; 2024 John Doe</p>
+    <!--The code for the footer goes here-->
+
+    <footer class="pagefooter">
+        <p>&copy;2024 ABCB.  ~All rights reserved</p>
     </footer>
 </body>
 </html>

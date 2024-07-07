@@ -3,20 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>videoDemo</title>
+    <title>Video Demonstration</title>
+    <link rel="stylesheet" href="videoDemo.css">
 </head>
 <body>
     <header>
-        <nav>
+        <input type="checkbox" id="leet-toggle">
+        <label for="leet-toggle" class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </label>
+        <nav class="leet">
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="project.html">Projects</a></li>
+                <li><a href="project.html">Project</a></li>
                 <li><a href="contact.html">Contact</a></li>
-                <li><a href="videoDemo.html">Video</a></li>
-                <li><a href="sitereport.html">Site Report</a></li>
-
+                <li><a href="videoDemo.html">Video Demo</a></li>
+                <li><a href="sitereport.html">Sitereport</a></li>
             </ul>
         </nav>
     </header>
+    <main>
+        <h1>Video Demonstration</h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </main>
+    <footer class="pagefooter">
+        <p>&copy;2024 ABCB. ~All rights reserved</p>
+    </footer>
 </body>
 </html>
