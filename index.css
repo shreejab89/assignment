@@ -95,7 +95,7 @@ p {
         z-index: 999; /* Ensure it's above other content */
     }
 
-    .nav-menu.open {
+    .nav-toggle:checked + .nav-toggle-label + .nav-menu {
         display: block;
     }
 
