@@ -11,10 +11,13 @@ body {
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: #333;
     color: white;
-    padding: 30px 0;
+    padding: 10px 0;
     text-align: center;
+    position: fixed;
+    width: 100%;
+    top:0;
 }
 
 header h1 {
@@ -71,13 +74,13 @@ footer {
 }
 
 .container {
-    max-width: 400px; /* Decreased max-width */
-    margin: 0 auto; /* Center align */
-    padding: 20px; /* Reduced padding */
-    border: 1px solid #ddd; /* Lighter border */
+    max-width: 600px; /* Increased max-width for better spacing */
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
     border-radius: 8px;
     background-color: #f9f9f9;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
@@ -97,16 +100,16 @@ label {
 input,
 textarea {
     width: 100%;
-    padding: 10px; /* Reduced padding */
-    margin-bottom: 15px; /* Reduced margin */
+    padding: 10px;
+    margin-bottom: 15px;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-    font-size: 1rem; /* Increased font size */
+    font-size: 1rem;
 }
 
 textarea {
-    resize: vertical; /* Allow vertical resizing */
+    resize: vertical;
 }
 
 button {
@@ -121,4 +124,18 @@ button {
 
 button:hover {
     background-color: #45a049;
+}
+
+.contact-details {
+    margin-top: 30px;
+    text-align: left;
+}
+
+.contact-details h2 {
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+.contact-details p {
+    margin: 5px 0;
 }

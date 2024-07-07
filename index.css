@@ -11,10 +11,13 @@ body {
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: #333; /* Change background color to dark */
     color: white;
-    padding: 30px 0;
+    padding: 10px 0; /* Adjust padding */
     text-align: center;
+    position: fixed; /* Fix header position */
+    width: 100%; /* Full width */
+    top: 0; /* Position at the top */
 }
 
 header h1 {
@@ -58,7 +61,7 @@ nav ul li a:hover {
 
 main {
     flex: 1;
-    padding: 20px;
+    padding: 80px 20px 20px; /* Adjust padding to accommodate fixed header */
     text-align: center;
 }
 
