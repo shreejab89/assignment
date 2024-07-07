@@ -1,4 +1,4 @@
-/* Home Page Styles */
+/* General Styles */
 body {
     background: #ffffff;
     font-family: Arial, sans-serif;
@@ -70,10 +70,55 @@ footer {
     margin-top: auto;
 }
 
-h2 {
-    color: #4CAF50;
+.container {
+    max-width: 400px; /* Decreased max-width */
+    margin: 0 auto; /* Center align */
+    padding: 20px; /* Reduced padding */
+    border: 1px solid #ddd; /* Lighter border */
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
 }
 
-p {
-    font-size: 1rem;
+h1 {
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+form {
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px; /* Reduced padding */
+    margin-bottom: 15px; /* Reduced margin */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1rem; /* Increased font size */
+}
+
+textarea {
+    resize: vertical; /* Allow vertical resizing */
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
 }
